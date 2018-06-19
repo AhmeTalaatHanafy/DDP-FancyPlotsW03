@@ -21,7 +21,7 @@ library(plotly)
 
 ```
 
-##Mtcats 3D plot
+##Mtcars 3D plot
 
 ```{r plot1, echo=TRUE, eval=FALSE}
 
@@ -43,7 +43,7 @@ p <- plot_ly(mtcars, x = ~wt, y = ~hp,
         zaxis = list(title = '1/4 mile time'))); p
 ```
 
-##Mtcats 3D plot [continue]
+##Mtcars 3D plot [continue]
 
 ```{r plot1_show, echo=FALSE,eval = TRUE}
 
